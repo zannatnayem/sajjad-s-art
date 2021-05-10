@@ -66,4 +66,11 @@
         width: 307px;
         height: 345px;
     
+  }
+  #ulitem {
+    display: flex;
+    flex-direction: column !important;
+    background: rgb(27, 21, 49);
+    visibility: hidden;
+  }
 }
