@@ -16,14 +16,11 @@
     transition: 1.6s;
     height: auto;
   }
-
-  #navbar .ulitem li {
-    margin: initial;
-    margin: 10px !important;
-    color: white;
-    width: 400px;
-    padding: 11px;
-    border-bottom: 1px solid #31311d;
+  #navbar #ulitem li {
+    border-bottom: 1px solid #423535;
+    padding: 10px;
+    width: 500px;
+    border-radius: 5px;
   }
   #navbar .ulitem li a {
     color: white;
@@ -42,7 +39,7 @@
     margin-top: 20px;
     font-size: 36px;
     position: fixed;
-    right: 0px;
+    right: 12px;
   }
   #navbar #ulitem li a {
     color: #fff;
@@ -52,20 +49,22 @@
     padding: 10px;
   }
   .back {
-    min-height: 102vh;
-    width: 450px;
+    min-height: 142vh;
+    width: 312px;
     background: #2d3a4b;
   }
   .background {
-    width: 709px;
+    width: 454px;
+    margin-left: -5px;
   }
   .back1 {
-    width: 288px;
-    height: 300px;
+    width: 195px;
+    height: 232px;
+    margin-left: 15px;
   }
   .imgHo {
-    width: 307px;
-    height: 345px;
+    width: 303px;
+    height: 331px;
   }
 
   .content .conb h3 {
@@ -102,5 +101,41 @@
   .picsaj {
     max-width: 1146px;
     right: -422px;
+  }
+  .imgHo img {
+    width: 79%;
+    height: 75%;
+    margin-top: 13px;
+    border-radius: 6px;
+  }
+  .back1::after {
+    content: "";
+    position: absolute;
+    width: 123px;
+    height: 1px;
+    background: rgb(236, 81, 81);
+    margin-top: 100px;
+    transition: 0.2s;
+    margin-left: -127px;
+  }
+  .back1 span::after {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 1px;
+    background: rgb(236, 81, 81);
+    margin-top: 50px;
+    transition: 0.2s;
+    margin-left: -143px;
+  }
+  .back1 span::before {
+    content: "";
+    position: absolute;
+    width: 118px;
+    height: 1px;
+    background: rgb(236, 81, 81);
+    transform: translateY(-20px);
+    transition: 0.2s;
+    margin-left: 1px;
   }
 }
