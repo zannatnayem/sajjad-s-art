@@ -1,0 +1,69 @@
+@media (max-width: 680px) {
+  #ulitem {
+    display: flex;
+    flex-direction: column !important;
+    background: rgb(27, 21, 49);
+    visibility: hidden;
+  }
+  .navbarShow {
+    visibility: visible !important;
+  }
+  div#navbar {
+    background: transparent;
+    width: unset;
+    right: unset;
+    transition: 1.6s;
+    height: auto;
+  }
+
+  #navbar .ulitem li {
+    margin: initial;
+    margin: 10px !important;
+    color: white;
+    width: 400px;
+    padding: 11px;
+    border-bottom: 1px solid #31311d;
+  }
+  #navbar .ulitem li a {
+    color: white;
+    overflow: hidden;
+  }
+
+  a.logo {
+    z-index: -1;
+  }
+
+  .container2 {
+    display: none;
+  }
+  #navbar #menubar {
+    float: right;
+    margin-top: 20px;
+    font-size: 36px;
+    position: fixed;
+    right: 0px;
+  }
+  #navbar #ulitem li a {
+    color: #fff;
+  }
+  #navbar #ulitem li {
+    border-bottom: 1px solid #423535;
+    padding: 10px;
+    transition: 1.6s;
+  }
+  .back {
+    min-height: 102vh;
+    width: 450px;
+    background: #2d3a4b;
+}
+.background {
+    width: 709px;}
+    .back1 {
+        width: 288px;
+        height: 300px;
+    }
+    .imgHo {
+        width: 307px;
+        height: 345px;
+    
+}
