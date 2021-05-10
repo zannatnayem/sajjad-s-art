@@ -4,6 +4,8 @@
     flex-direction: column !important;
     background: rgb(27, 21, 49);
     visibility: hidden;
+    display: block;
+    width: 300px;
   }
   .navbarShow {
     visibility: visible !important;
