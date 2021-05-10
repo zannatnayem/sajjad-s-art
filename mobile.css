@@ -50,21 +50,22 @@
   }
   .back {
     min-height: 142vh;
-    width: 312px;
+    width: 249px;
     background: #2d3a4b;
   }
   .background {
-    width: 454px;
-    margin-left: -5px;
+    width: 446px;
+    margin-left: -45px;
+    min-height: 31vh;
   }
   .back1 {
     width: 195px;
     height: 232px;
-    margin-left: 15px;
+    margin-left: -7px;
   }
   .imgHo {
-    width: 303px;
-    height: 331px;
+    width: 241px;
+    height: 324px;
   }
 
   .content .conb h3 {
@@ -99,9 +100,12 @@
     text-align: left;
   }
   .picsaj {
-    max-width: 1146px;
-    right: -422px;
-  }
+    max-width: 1141px;
+    right: -472px;
+    top: 227px;right: -460px;
+    z-index: -1;
+}
+} 
   .imgHo img {
     width: 79%;
     height: 75%;
@@ -138,4 +142,10 @@
     transition: 0.2s;
     margin-left: 1px;
   }
+  #portfolio {
+    position: relative;
+    width: 100%;
+    height: 108vh;
+    text-align: left;
+}
 }
